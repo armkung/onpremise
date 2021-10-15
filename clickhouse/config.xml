@@ -1,5 +1,7 @@
 <yandex>
     <max_server_memory_usage_to_ram_ratio from_env="MAX_MEMORY_USAGE_RATIO" />
+    <listen_host>0.0.0.0</listen_host>
+    <listen_reuse_port>1</listen_reuse_port>
     <logger>
         <level>information</level>
         <console>1</console>

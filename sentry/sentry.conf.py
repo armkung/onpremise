@@ -271,7 +271,7 @@ SENTRY_FEATURES.update(
 # MaxMind Integration #
 #######################
 
-GEOIP_PATH_MMDB = '/geoip/GeoLite2-City.mmdb'
+# GEOIP_PATH_MMDB = '/geoip/GeoLite2-City.mmdb'
 
 #########################
 # Bitbucket Integration #
@@ -279,3 +279,5 @@ GEOIP_PATH_MMDB = '/geoip/GeoLite2-City.mmdb'
 
 # BITBUCKET_CONSUMER_KEY = 'YOUR_BITBUCKET_CONSUMER_KEY'
 # BITBUCKET_CONSUMER_SECRET = 'YOUR_BITBUCKET_CONSUMER_SECRET'
+
+SENTRY_SAMPLE_DATA = False
